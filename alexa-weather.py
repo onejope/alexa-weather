@@ -5,10 +5,10 @@ from time import sleep
 
 import pytz
 
-DEFAULT_COORDINATES = '33.632802,-117.693676'
+DEFAULT_COORDINATES = '0.00001, 0.00001'
 NOTIFY_TEMPERATURE = 26.666
-DEFAULT_OVER_TEMPERATURE_MESSAGE = 'At %s it is over 80 degrees outside so bring in Lacey'
-DEFAULT_UNDER_TEMPERATURE_MESSAGE = 'At %s it is under 80 degrees so Lacey can go back outside'
+DEFAULT_OVER_TEMPERATURE_MESSAGE = 'At %s it is over 80 degrees outside so bring in dog'
+DEFAULT_UNDER_TEMPERATURE_MESSAGE = 'At %s it is under 80 degrees so dog can go back outside'
 
 RISING_SLEEP_PERIOD_IN_MIN = 15
 WAITING_SLEEP_PERIOD_IN_MIN = 60
